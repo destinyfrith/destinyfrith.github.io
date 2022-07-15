@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destiny Frith Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="css/style.css" </head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Destiny Frith</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack developer</p>
+        <img src="images/linkedinselfie.jpg" alt="a picture of Destiny Frith smiling" class="intro__img">
+    </section>
+
+
+    <!-- My skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <p>JavaScript / React / Python / Django / SQL / Agile Methodology / Github</p>
+            </div> <!-- / skill -->
+
+            <br>
+
+            <a href="#work" class="btn">View Past Projects</a>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I Am</h2>
+        <p class="section__subtitle section__subtitle--about">Full-Stack Developer based in Nashville, TN</p>
+
+        <div class="about-me__body">
+            <p>I'm a junior developer who has recently started my journey into tech.
+                I graduated from Nashville Software School with a certificate in full-stack development in June 2022.
+            </p>
+
+            <p>I'm a self-motivated learner with strong time management & communication skills. I value working
+                independently & collaboratively within a team.</p>
+
+            <p>My super power is my curiosity and love of learning new things. My passions beyond coding include
+                sustainability, mental health awareness, music and
+                coffee. Inclusivity and diversity in the workplace are important to me. I am currently looking for a
+                junior developer role.</p>
+        </div>
+
+        <img src="images/destinyhat.jpeg" alt="Destiny smiling with a hat on" class="about-me__img">
+        </div>
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title">Past Projects</h2>
+        <p class="section__subtitle"></p>
+
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <div class="portfolio__item">
+                <a href="https://github.com/destinyfrith/coffeenotes-api">
+                    <h4>Coffee Notes</h4>
+                </a>
+                <p>Coffee Notes allows coffee lovers to track new coffees and keep records of their dial in processes to
+                    get the best cup. Users can upload images and edit settings as they go through the dial in process.
+                    Built with React, Django and SQL.</p>
+            </div>
+
+
+            <!-- Portfolio item 02 -->
+            <div class="portfolio__item">
+                <a href="https://github.com/destinyfrith/too-legit-to-quit">
+                    <h4>Too Legit to Quit</h4>
+                </a>
+                <p>Too Legit to Quit is a two page task manager application that allows users to add, edit and delete
+                    tasks as
+                    well as mark them as complete.
+                    Users can categorize tasks and mark if they're urgent. Built using React, CSS and MaterialUI.</p>
+            </div>
+    </section>
+
+    <div>
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:destinyfrith.dev@gmail.com" class="footer__link">destinyfrith.dev@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/destinyfrith/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/destinyfrith">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
